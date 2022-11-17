@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title {
+  text-align: left;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+p {
+  color: #AFAFAF
+}
+
+/* CONTAINER */
+#container-fluid {
+  padding: 3% 10% 8%;
+}
+
+/* COLOR WHITE SECTION */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* NAVBAR  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* FEATURE SECTIONS */
+#features {
+  position: relative;
+  padding: 8% 15%;
+  line-height: 2;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.icon {
+  color: #fb7489;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  /* padding: 8% 15%; */
+}
+
+.carousel-item {
+  padding: 8% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+/* PRESS SECTION */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 10px 50px;
+}
+
+/* PRICING  SECTION */
+.pricing-head {
+  margin: 5% auto 2%;
+}
+
+.price-card {
+  margin: 5% 20%;
+}
+
+.price-btn {
+  background-color: #fb7489;
+  border: 1px solid white;
+  color: white;
+}
+
+.price-btn:hover {
+  background-color: #ff4c68;
+  border: 1px solid white;
+}
+
+.single-price-card {
+  margin: 2% 0% 10%;
+}
+
+.list-unstyled {
+  line-height: 2;
+}
+
+.card {
+  border: 2px solid #ff4c68;
+}
+
+@media (max-width:992px) {
+  .title-image {
+    width: 40%;
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 50px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+#cta {
+  padding: 5% 30%;
+}
+
+.cta-head {
+  font-size: 2rem;
+}
+
+/* FOOTER SECTION */
+#footer {
+  margin: 3% auto;
+}
+
+.connect-item {
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.connect-item:hover {
+  color: #ff4c68;
+}
